@@ -5,22 +5,24 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
 
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" sizes="16x16 24x24 32x32 64x64"/>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" sizes="16x16 24x24 32x32 64x64"/>
 
         <link rel="stylesheet" href="mstyle.css" type="text/css">
         <script type="text/javascript" src="mscript.js"></script>
     </head>
 
-    <body class="content">
+    <body class="content" onload="onWindowLoad()">
         <div class="profileHeading" style="float: right">
             <p><b>Chandan Adiga</b></p>
-            <img class="qrImg" src="ChandanAdiga.github.io_QR.svg">
+            <img class="qrImg" src="images/ChandanAdiga.github.io_QR.svg">
             <p class="qrImgLabel">(Scan to get this page's link)</p>
         </div>
 
+        <!-- <iframe src="http://www.500px.com" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" ></iframe> -->
+
         <section class="roundedCornerWithBorder" style="clear: both">
             <h4>Profesional Summary:</h4>
-            <p style="margin-left:40px">8+ year experienced software engineer, who began career with Android development and continues to be.
+            <p class="scrollableText">8+ year experienced software engineer, who began career with Android development and continues to be.
                 <br><br>Being expert in Android Framework, application development; good hands on experience in iOS app development in Swift,
                 React Native, Android Things; implementing machine learning & deep learning frameworks; intermediate
                 exposure of Big Data & Hadoop frameworks and their usage. Developped some of web apps using DJango(2.0), NodeJS.
@@ -28,39 +30,122 @@
         </section>
 
         <section class="roundedCornerWithBorder" style="clear: both">
-            <h4>Android Development Experience:</h4>
-            <p style="margin-left:40px">
-                Well, I have started my Profesional career with Android App development. It was Donut, Eclair, Froyo release time.
-                Developped and published around 6-7 apps and games with these releases.
-                <br><br>
-                Then, got a chance to work on Android UI framework, where in, maintained Android OS upgrade tasks from older versions to GingerBread(GB).
-                Soon, HoneyComb released.. and followed by Ice Cream Sandwitch. Okay, enough of upgrading OS!
-                <br><br>
-                Back to Android app development space: Developped a digital content publishing app, featuring- list items, In app purchase & subscription handing,
-                downloading of content, content reader, content sharing on social media functionalities. It is again a framework kind of app,
-                 from which customization starts for each content publisher.
-                <br><br>
-                By this time, my Android app development experience covered: 3rd partly library integration(OkHttp, Volley, Picasso etc),
-                Ad Network integration(AdMob, InMobi etc) and crash/analytics SDK integration(Flurry etc). Also, got several chance to
-                develop some of framework/libraries to ease the development process along the way!
-                <br><br>
+            <div class="tab">
+                <button id="tab_android" class="tablinks" onclick="openProfile(event, 'profile_android')">Android</button>
+                <button id="tab_ios" class="tablinks" onclick="openProfile(event, 'profile_ios')">iOS</button>
+                <button id="tab_web" class="tablinks" onclick="openProfile(event, 'profile_web')">Web Development</button>
+                <button id="tab_aimldl" class="tablinks" onclick="openProfile(event, 'profile_aimldl')">AI/ML/DL</button>
+                <button id="tab_datascience" class="tablinks" onclick="openProfile(event, 'profile_datascience')">Data Science</button>
+                <button id="tab_bigdata" class="tablinks" onclick="openProfile(event, 'profile_bigdata')">Big Data</button>
+            </div>
 
-            </p>
+            <div id="profile_android" class="tabcontent">
+                <h4>Android Development Experience:</h4>
+                <p class="scrollableText">
+                    Well, I have started my Profesional career with Android App development. It was Donut, Eclair, Froyo release time.
+                    Developped and published around 6-7 apps and games with these releases.
+                    <br><br>
+                    Then, got a chance to work on Android UI framework, where in, maintained Android OS upgrade tasks from older versions to GingerBread(GB).
+                    Soon, HoneyComb released.. and followed by Ice Cream Sandwitch. Okay, enough of upgrading OS!
+                    <br><br>
+                    Back to Android app development space: Developped a digital content publishing app, featuring- list items, In app purchase & subscription handing,
+                    downloading of content, content reader, content sharing on social media functionalities. It is again a framework kind of app,
+                     from which customization starts for each content publisher.
+                    <br><br>
+                    By this time, my Android app development experience covered: 3rd partly library integration(OkHttp, Volley, Picasso etc),
+                    Ad Network integration(AdMob, InMobi etc) and crash/analytics SDK integration(Flurry etc). Also, got several chance to
+                    develop some of framework/libraries to ease the development process along the way!
+                    <br><br>
+                </p>
+            </div>
+            <div id="profile_ios" class="tabcontent">
+                <h4>iOS Development Experience:</h4>
+                <p style="text-align: center">
+                    ............
+                </p>
+                <p style="text-align: center">
+                    Under construction
+                </p>
+                <p style="text-align: center">
+                    ............
+                </p>
+            </div>
+            <div id="profile_web" class="tabcontent">
+                <h4>Web/Server Development Experience:</h4>
+                <p style="text-align: center">
+                    ............
+                </p>
+                <p style="text-align: center">
+                    Under construction
+                </p>
+                <p style="text-align: center">
+                    ............
+                </p>
+            </div>
+            <div id="profile_aimldl" class="tabcontent">
+                <h4>AI/ML/DL Development Experience:</h4>
+                <p style="text-align: center">
+                    ............
+                </p>
+                <p style="text-align: center">
+                    Under construction
+                </p>
+                <p style="text-align: center">
+                    ............
+                </p>
+            </div>
+            <div id="profile_datascience" class="tabcontent">
+                <h4>Data Science Development Experience:</h4>
+                <p style="text-align: center">
+                    ............
+                </p>
+                <p style="text-align: center">
+                    Under construction
+                </p>
+                <p style="text-align: center">
+                    ............
+                </p>
+            </div>
+            <div id="profile_bigdata" class="tabcontent">
+                <h4>Big Data Development Experience:</h4>
+                <p style="text-align: center">
+                    ............
+                </p>
+                <p style="text-align: center">
+                    Under construction
+                </p>
+                <p style="text-align: center">
+                    ............
+                </p>
+            </div>
         </section>
-
-        <section class="roundedCornerWithBorder" style="clear: both">
-            <p>While I am busy bringing rest of this page up...</p>
-            <br>
-            <p style="margin-left:40px">Explore my profile @ :
-                <a href="https://stackoverflow.com/users/story/321272" target="_blank">Stack Overflow</a> /
-                    <a href="https://www.linkedin.com/in/cadiga" target="_blank">LinkedIn</a> /
-                <a href="https://www.kaggle.com/chandanadiga" target="_blank">Kaggle</a>.
-                <br><br>
-                Or take a look at my <a href="https://github.com/ChandanAdiga?tab=repositories" target="_blank">Git Repositories</a>.
-                <br><br>
-                Or checkout my <a href="https://500px.com/chandanadiga" target="_blank">Photography work</a>.
+        <div>
+            <p style="text-align: center">
+                ............
             </p>
-            <!-- <input type="button" value="Greet Me" onclick="greetMe()"/> -->
+            <p style="text-align: center">
+                FYI: Under construction
+            </p>
+            <p style="text-align: center">
+                ............
+            </p>
+        </div>
+        <section class="footer" style="clear: both">
+            <a href="https://stackoverflow.com/users/story/321272" target="_blank" style="text-decoration:none">
+                <img src="images/stackoverflow.png" class="footerIcon"/>
+            </a>
+            <a href="https://www.linkedin.com/in/cadiga" target="_blank" style="text-decoration:none;">
+                <img src="images/linkedin.png" class="footerIcon"/>
+            </a>
+            <a href="https://www.kaggle.com/chandanadiga" target="_blank" style="text-decoration:none;">
+                <img src="images/kaggle.png" class="footerIcon"/>
+            </a>
+            <a href="https://github.com/ChandanAdiga?tab=repositories" target="_blank" style="text-decoration:none;">
+                <img src="images/github.png" class="footerIcon"/>
+            </a>
+            <a href="https://500px.com/chandanadiga" target="_blank" style="text-decoration:none;">
+                <img src="images/500px.png" class="footerIcon"/>
+            </a>
         </section>
 
 
