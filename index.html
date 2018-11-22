@@ -20,33 +20,7 @@
 
         <!-- <iframe src="http://www.500px.com" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" ></iframe> -->
 
-        <section class="roundedCornerWithBorder" style="clear: both">
-            <h4>Profesional Summary:</h4>
-            <p class="scrollableText">8+ year experienced software engineer, who began career with Android development and continues to be.
-                <br><br>Being expert in Android Framework, application development; good hands on experience in iOS app development in Swift,
-                React Native, Android Things; implementing machine learning & deep learning frameworks; intermediate
-                exposure of Big Data & Hadoop frameworks and their usage. Developped some of web apps using DJango(2.0), NodeJS.
-            </p>
-        </section>
-
-        <section class="roundedCornerWithBorder" style="clear: both">
-            <h4>Education:</h4>
-            <p>
-                <li style="margin-left:40px">Master of Technology - 2018<br><p style="margin-left:40px"><i>Software Systems(Specialization: Data Analytics), [WILP] BITS Pilani.</i></p></li>
-                <li style="margin-left:40px">Bachelor of Engineering - 2009<br><p style="margin-left:40px"><i>Computer Science, VTU Belgaum.</i></p></li>
-            </p>
-        </section>
-
-        <section class="roundedCornerWithBorder" style="clear: both">
-            <h4>Profesional Certifications:</h4>
-            <p>
-                <li style="margin-left:40px">iOS App Development Certification(Swift)<br><p style="margin-left:40px"><i>License: LC2JN6Y1, Vendor: edureka!</i></p></li>
-                <li style="margin-left:40px">Big Data & Hadoop Advance Course<br><p style="margin-left:40px"><i>License: BDHA210319041724, Vendor: skillspeed</i></p></li>
-                <li style="margin-left:40px">Python Deep Dive Profesional<br><p style="margin-left:40px"><i>License: NA, Vendor: Spring People</i></p></li>
-                <li style="margin-left:40px">Neural Networks and Deep Learning<br><p style="margin-left:40px"><i>License: EKUD3E838N4L, Vendor: Coursera / deeplearning.ai</i></p></li>
-            </p>
-        </section>
-
+        <!--  EXPERIENCE-START -->
         <section class="roundedCornerWithBorder" style="clear: both">
             <div class="tab">
                 <button id="tab_android" class="tablinks" onclick="openProfile(event, 'profile_android')">Android</button>
@@ -78,66 +52,101 @@
             </div>
             <div id="profile_ios" class="tabcontent">
                 <h4>iOS Development Experience:</h4>
-                <p style="text-align: center">
-                    ............
-                </p>
-                <p style="text-align: center">
-                    Under construction
-                </p>
-                <p style="text-align: center">
-                    ............
-                </p>
+                <p class="scrollableText">
+                    Although, during beginning of my career with Android app development, I have started learning iOS app development(That time, it was through Objective-C), it was just 'Hello World', Button Click apps.
+                    <br><br>
+                    Later, as part of my 'iOS App Development Certification(Swift)' course, was suppose to complete a movie review reading app with REST API integration, Table View, image/thumbnail display, story boards etc.
+                    <br><br>
+                    Well then, the journey continues with building an app which disovers and communicates with devices over BLE, an app to collect location information and push/pull data to/from cloud, handle push notifications.
+                    <br><br>
             </div>
             <div id="profile_web" class="tabcontent">
-                <h4>Web/Server Development Experience:</h4>
-                <p style="text-align: center">
-                    ............
-                </p>
-                <p style="text-align: center">
-                    Under construction
-                </p>
-                <p style="text-align: center">
-                    ............
+                <h4>Web/Server App Development Experience:</h4>
+                <p class="scrollableText">
+                    Web app experience started during my Bachelor degree's final year itself. It was through CGI, perl, php, mySQL, Java Servlet.
+                    <br><br>
+                    Later, started learning struts, hibernate on my own. A sample PoC project is in <a href="https://github.com/ChandanAdiga/EduWeb" target="_blank"> my GitHub Repo</a>.
+                    <br><br>
+                    Recently, for completing my Python Certification course, completed a PoC banking web application. It can be found in
+                     <a href="https://github.com/ChandanAdiga/WebApp_MyBanking" target="_blank"> my GitHub Repo</a>. Later on learned DJango(2.0) framework and developped a sample web app
+                     which supports user sign in/sign out, session management, upload files, process them and get processed files back to download.
+                    <br><br>
+                    Recently, learning NodeJS on my own and its PoCs can be found in <a href="https://github.com/ChandanAdiga/NodeJS_SampleApps" target="_blank"> my GitHub Repo</a>.
+                    <br><br>
                 </p>
             </div>
             <div id="profile_aimldl" class="tabcontent">
                 <h4>AI/ML/DL Development Experience:</h4>
-                <p style="text-align: center">
-                    ............
-                </p>
-                <p style="text-align: center">
-                    Under construction
-                </p>
-                <p style="text-align: center">
-                    ............
+                <p class="scrollableText">
+                    My first encounter with machine learning was during my masters; where in completed ML subject
+                     successfully. Althout more of it were theory, I was supposed to complete an assignment - which
+                     was to develop from scratch, a classifier to classify
+                     <a href="https://en.wikipedia.org/wiki/Iris_flower_data_set" target="_blank">Iris Flower Data set</a>. My
+                     solution to this assignment is using Native Bayes Classificaiton and is available in <a href="https://github.com/ChandanAdiga/MachineLearning/tree/master/Classification_NaiveBayes_IrisDataSet" target="_blank">my GitHub repo</a>.
+                    <br><br>
+                    Later on, I have trained a ML model based on LinearRegression through python's scikit-learn libray
+                    to classify(shortlist) Resumes/CVs automatically. This requires indexing of words which is done via CountVectorizer.
+                    Further processing is done using TF-IDF to improve accuracy/performance based on word frequence and weight.
+                    <br><br>
                 </p>
             </div>
             <div id="profile_datascience" class="tabcontent">
                 <h4>Data Science Development Experience:</h4>
-                <p style="text-align: center">
-                    ............
-                </p>
-                <p style="text-align: center">
-                    Under construction
-                </p>
-                <p style="text-align: center">
-                    ............
+                <p class="scrollableText">
+                    Well, I have completed my masters with Specialization in Data Analytics. Covering subjects like BigData, Hadoop, ML, AI brought
+                    near to Data Science.
+                    <br><br>
+                    I have been practicing my data science learning through <a href="https://www.kaggle.com" target="_blank">Kaggle</a>.
+                    All of my work so far, can be found on <a href="https://www.kaggle.com/ChandanAdiga" target="_blank">my Kaggle Profile</a>.
+                    <br><br>
                 </p>
             </div>
             <div id="profile_hadoop" class="tabcontent">
                 <h4>Hadoop Development Experience:</h4>
-                <p style="text-align: center">
-                    ............
-                </p>
-                <p style="text-align: center">
-                    Under construction
-                </p>
-                <p style="text-align: center">
-                    ............
+                <p class="scrollableText">
+                    My encounter with BigData & Hadoop started with its Certification course. The assignments and project work carried output
+                    for the same are in <a href="https://github.com/ChandanAdiga/BigDataAndHadoop" target="_blank"> my GitHub Repo</a>.
+                    <br><br>
                 </p>
             </div>
         </section>
-        <div>
+        <!--  EXPERIENCE-END -->
+
+        <!--  SUMMARY-START -->
+        <section class="roundedCornerWithBorder" style="clear: both">
+            <h4>Profesional Summary:</h4>
+            <p class="scrollableText">8+ year experienced software engineer, who began career with Android development and continues to be.
+                <br><br>Being expert in Android Framework, application development; good hands on experience in iOS app development in Swift,
+                React Native, Android Things; implementing machine learning & deep learning frameworks; intermediate
+                exposure of Big Data & Hadoop frameworks and their usage. Developped some of web apps using DJango(2.0), NodeJS.
+            </p>
+        </section>
+        <!--  SUMMARY-END -->
+
+        <!--  CERTIFICATION-START -->
+        <section class="roundedCornerWithBorder" style="clear: both">
+            <h4>Profesional Certifications:</h4>
+            <p>
+                <li style="margin-left:40px">iOS App Development Certification(Swift)<br><p style="margin-left:40px"><i>License: LC2JN6Y1, Vendor: edureka!</i></p></li>
+                <li style="margin-left:40px">Big Data & Hadoop Advance Course<br><p style="margin-left:40px"><i>License: BDHA210319041724, Vendor: skillspeed</i></p></li>
+                <li style="margin-left:40px">Python Deep Dive Profesional<br><p style="margin-left:40px"><i>License: NA, Vendor: Spring People</i></p></li>
+                <li style="margin-left:40px">Neural Networks and Deep Learning<br><p style="margin-left:40px"><i>License: EKUD3E838N4L, Vendor: Coursera / deeplearning.ai</i></p></li>
+            </p>
+        </section>
+        <!--  CERTIFICATION-END -->
+
+        <!--  EDUCATION-START -->
+        <section class="roundedCornerWithBorder" style="clear: both">
+            <h4>Education:</h4>
+            <p>
+                <li style="margin-left:40px">Master of Technology - 2018<br><p style="margin-left:40px"><i>Software Systems(Specialization: Data Analytics), [WILP] BITS Pilani.</i></p></li>
+                <li style="margin-left:40px">Bachelor of Engineering - 2009<br><p style="margin-left:40px"><i>Computer Science, VTU Belgaum.</i></p></li>
+            </p>
+        </section>
+        <!--  EDUCATION-END -->
+
+        <!--  SECTION-START -->
+        <!-- <div>
             <p style="text-align: center">
                 ............
             </p>
@@ -147,7 +156,10 @@
             <p style="text-align: center">
                 ............
             </p>
-        </div>
+        </div> -->
+        <!--  SECTION-END -->
+
+        <!--  FOOTER-START -->
         <section class="footer" style="clear: both">
             <a href="https://stackoverflow.com/users/story/321272" target="_blank" style="text-decoration:none">
                 <img src="images/stackoverflow.png" class="footerIcon"/>
@@ -165,8 +177,7 @@
                 <img src="images/500px.png" class="footerIcon"/>
             </a>
         </section>
-
-
+        <!--  FOOTER-END -->
 
     </body>
 </html>
